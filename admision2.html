@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../../icon/css/all.css"/>
+        <link rel="stylesheet" href="../../dist/css/bootstrap.css"/>
+        <script src="../../dist/js/bootstrap.bundle.js"></script>
+        <style>
+            .nav-item:hover{
+                background: gold;
+                cursor: pointer;
+            }
+            #bt1 button{
+                width: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <section class="bg-info text-white p-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-6">
+                        Technical Help- <i class="fa fa-headset"></i> +91-8792462607
+                    </div>
+                    <div class="col-lg-6 col-6 text-end">
+                        welcome,SBIC Admin-Logout
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--Nav start-->
+        <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <i class="fa fa-circle-user p-2"></i>Admin SBIC-UP
+            </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mx-auto mb-2 mb-md-0">
+                    <li class="nav-item ">
+                        <a class="nav-link active" href="assignment13.html"><i class="fa fa-home p-1"></i>Home</a>
+                      </li>
+    
+                      <li class="nav-item ">
+                        <a class="nav-link active" href="dashboard.html"><i class="fa fa-layer-group p-1"></i>Dashboard</a>
+                      </li>
+
+                  <li class="nav-item dropdown">
+                    <a href="#" class="nav-link active dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-plus p-1"></i> Admission</a>
+                    <div class="dropdown-menu">
+                        <a href="admission1.html" class="dropdown-item"><i class="fa fa-user-plus"></i>New Admission</a>
+                        <a href="admision2.html" class="dropdown-item"> <i class="fa fa-list"></i>Admission List</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link active dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-suitcase p-1"></i> Fee payment</a>
+                    <div class="dropdown-menu">
+                        <a href="feecollection.html" class="dropdown-item"><i class="fa fa-money-bill-1"></i>Fee Collection</a>
+                        <a href="report.html" class="dropdown-item"> <i class="fa fa-coins"></i>Finance Report</a>
+                        <a href="payment.html" class="dropdown-item"> <i class="fa fa-file-invoice-dollar"></i> Today payment</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link active dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-bus p-1"></i> Transport</a>
+                    <div class="dropdown-menu">
+                        <a href="transport.html" class="dropdown-item"> <i class="fa fa-truck-arrow-right"></i>Transport - 1</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="exam.html"><i class="fa fa-pen-to-square p-1"></i>Exam</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="activity.html"><i class="fa fa-star p-1"></i>Activity</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link active dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-gears p-1"></i> Admin</a>
+                    <div class="dropdown-menu">
+                        <a href="admin.html" class="dropdown-item"> <i class="fa fa-user-tie"></i>Admin Control</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link active dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-user p-1"></i> Account</a>
+                    <div class="dropdown-menu">
+                        <a href="login.html" class="dropdown-item"> <i class="fa fa-arrow-right-to-bracket"></i>Login</a>
+                        <a href="newaccount.html" class="dropdown-item"> <i class="fa fa-id-card"></i>Register</a>
+                        <a href="password.html" class="dropdown-item"> <i class="fa fa-unlock-keyhole"></i>Change Password</a>
+                </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!--nav End-->
+
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-12 text-primary text-center mb-3">
+                    <h4>Admission List</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-2">
+                    <select class="form-select">
+                        <option>Choose</option>
+                        <option>2011-2012</option>
+                        <option>2012-2013</option>
+                        <option>2013-2014</option>
+                        <option>2014-2015</option>
+                        <option>2015-2016</option>
+                        <option>2016-2017</option>
+                        <option>2017-2018</option>
+                        <option>2018-2019</option>
+                        <option>2019-2020</option>
+                        <option>2020-2021</option>
+                        <option>2021-2022</option>
+                        <option>2022-2023</option>
+                        <option>2023-2024</option>
+                    </select>
+                </div>
+                <div class="col-lg-2">
+                    <select class="form-select">
+                        <option>Choose</option>
+                        <option>Pre-Nursery</option>
+                        <option>Nursery</option>
+                        <option>KG</option>
+                        <option>LKG</option>
+                        <option>UKG</option>
+                        <option>standard 1</option>
+                        <option>standard 2</option>
+                        <option>standard 3</option>
+                        <option>standard 4</option>
+                        <option>standard 5</option>
+                        <option>standard 6</option>
+                        <option>standard 7</option>
+                        <option>standard 8</option>
+                        <option>standard 9</option>
+                        <option>standard 10</option>
+                        <option>standard 11</option>
+                        <option>standard 12</option>
+                    </select>
+                </div>
+                <div class="col-lg-2">
+                    <select class="form-select">
+                        <option>Choose Section</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                    </select>
+                </div>
+                <div class="col-lg-2">
+                    <p id="bt1"><button class="btn btn-primary"><i class="fa fa-search"></i>Search</button></p>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-danger text-center mt-3">
+                <p>No Records!</p>
+            </div>
+        </div>
+
+    </body>
+</html>
+
+
+
+
+

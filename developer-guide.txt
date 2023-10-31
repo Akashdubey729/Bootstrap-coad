@@ -1,0 +1,217 @@
+bootstrap is the library of css.
+it was introduced bt twitter in 2011
+it has collection of pre define css classes that help to design responsive webpage.
+the bootstrap library is designed based on grid system.
+
+grid system - the grid system devided all the divice in 6 category based on screen width
+-----------------------------------------------------------------------------------------------
+1. extra small                  - 1px to 576px screen width
+2. small device                 - 577px to 768px screen width
+3. medium device                - 769px to 992px screen width
+4. large device                 - 993px to 1200px screen width
+5. extra large device           - 1201px to 1400px screen width
+6. extra extra large device     - 1401px screen width
+-------------------------------------------------------------------------------------------------
+bootstrap has given 12 css classes for each category
+1. extra small
+    .col-1
+    .col-2
+    .col-3
+    .col-4
+    .col-5
+    .col-6
+    .col-7
+    .col-8
+    .col-9
+    .col-10
+    .col-11
+    .col-12
+
+2. small device
+    .col-sm-1
+    .col-sm-2
+    .col-sm-3
+    .col-sm-4
+    .col-sm-5
+    .col-sm-6
+    .col-sm-7
+    .col-sm-8
+    .col-sm-9
+    .col-sm-10
+    .col-sm-11
+    .col-sm-12
+
+3. medium device
+    .col-md-1
+    .col-md-2
+    .col-md-3
+    .col-md-4
+    .col-md-5
+    .col-md-6
+    .col-md-7
+    .col-md-8
+    .col-md-9
+    .col-md-10
+    .col-md-11
+    .col-md-12
+
+4. large device
+    .col-lg-1
+    .col-lg-2
+    .col-lg-3
+    .col-lg-4
+    .col-lg-5
+    .col-lg-6
+    .col-lg-7
+    .col-lg-8
+    .col-lg-9
+    .col-lg-10
+    .col-lg-11
+    .col-lg-12
+
+5. extra large device
+    .col-xl-1
+    .col-xl-2
+    .col-xl-3
+    .col-xl-4
+    .col-xl-5
+    .col-xl-6
+    .col-xl-7
+    .col-xl-8
+    .col-xl-9
+    .col-xl-10
+    .col-xl-11
+    .col-xl-12 
+
+6. extra extra large device
+    .col-xxl-1
+    .col-xxl-2
+    .col-xxl-3
+    .col-xxl-4
+    .col-xxl-5
+    .col-xxl-6
+    .col-xxl-7
+    .col-xxl-8
+    .col-xxl-9
+    .col-xxl-10
+    .col-xxl-11
+    .col-xxl-12 
+----------------------------------72 classes ----------------------------------
+
+how  to use bootstrap grid system classes
+    1. link to bootstrap.css file in head section
+    2. follow body tag
+    3. use following classes inside body
+        .container - it leave margin in left and right
+        .container-fluid - it has no margin. it cover 100% width
+    4. inside .container or .container-fluid follow the class
+        .row - hight is auto width is 100% of parent
+    5. inside .row follow colums
+        -> in each row min 1 column and max12 columns
+----------------------------------------------------------------------------------------
+    classes for text alignment
+    .text-start ( left align)
+    .text-center ( center align)
+    .text-end( right align)
+---------------------------------------------------------------------------------
+    classes for text color
+    .text-primary       -blue
+    .text-info          -skyblue
+    .text-danger        -red
+    .text-sucess        -green
+    .text-secondary     -grey
+    .text-white         -white
+    .text-warning       -yellow
+-----------------------------------------------------------------------------------
+    classes for background color
+    .text-primary       -blue
+    .bg-info          -skyblue
+    .bg-danger        -red
+    .bg-sucess        -green
+    .bg-secondary     -grey
+    .bg-white         -white
+    .bg-warning       -yellow
+-----------------------------------------------------------------------------------------
+    classes for box shadow
+        .shadow-sm
+        .shadow
+        .shadow-lg
+--------------------------------------------------------------------------------------------------------------
+    classes for radius
+    .rounded            -less radius
+    .rounded-circle     -50% radious
+---------------------------------------------------------------------------------------------------------------------
+    classes for margin & padding
+        ->t top
+        ->b bottom
+        ->l left =>s - start
+        ->r right =>e - end
+        ->m margin
+        ->p padding
+
+        ->1 4px
+        ->2 8px
+        ->3 16px
+        ->4 24px
+        ->5 48px
+
+for margin 25 classes
+        .m-1 (margin 4px all side)
+        .m-2 (margin 8px all side)
+        .m-3 (margin 16pxpx all side)
+        .m-4 (margin 24pxpx all side)
+        .m-5 (margin 48px all side)
+
+        .m-1, .m-2, .m-3, .m-4, .m-5
+        .mt-1, .mt-2, .mt-3, .mt-4, .mt-5
+        .mb-1, .mb-2, .mb-3, .mb-4, .mb-5
+        .ms-1, .ms-2, .ms-3, .ms-4, .ms-5
+        .me-1, .me-2, .me-3, .me-4, .me-5
+
+For padding 25 classes
+
+        .p-1, .p-2, .p-3, .p-4, .p-5
+        .pt-1, .pt-2, .pt-3, .pt-4, .pt-5
+        .pb-1, .pb-2, .pb-3, .pb-4, .pb-5
+        .ps-1, .ps-2, .ps-3, .ps-4, .ps-5
+        .pe-1, .pe-2, .pe-3, .pe-4, .pe-5
+----------------------------------------------------------------------------------------------------------
+    classes for image
+        .img-fluid
+        .img-thumbnail
+------------------------------------------------------------------------------------------------
+    classes for table
+        .table
+        .table-bordered
+        .table-hover
+        .table-sm
+        .table-striped
+-----------------------------------------------------------------------------------------------------------------
+    classes for card
+        .card
+        .card-header
+        .card-body
+        .card-footer
+----------------------------------------------------------------------------------------------------------------
+    Classes for Left Navigation ?
+        .list-group
+        .list-group-item
+        .active
+---------------------------------------------------------------------------------------------------------------------
+    classes for button
+        .btn
+        .btn-primary       -blue
+        .btn-info          -skyblue
+        .btn-danger        -red
+        .btn-sucess        -green
+        .btn-secondary     -grey
+        .btn-white         -white
+        .btn-warning       -yellow
+----------------------------------------------------------------------------------------------------------------
+    class for input tags
+        .form-control- use in (text,password,number,email,date,datetime,file,textarea)
+        .form-select - use only in (select)
+    -> for different size
+        .form-control-sm- reduce height input elements
+        .form-control-lg -increase height of input elements
+        --------------------------------------------------------------------------------------------------------
